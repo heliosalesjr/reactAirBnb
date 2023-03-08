@@ -58,14 +58,16 @@ section {
 .card {
   width: 175px;
   font-size: 12px;
-  flex: 0 0 auto;         /* ADD */
-  display: flex;          /* ADD */
-  flex-direction: column; /* ADD */
+  flex: 0 0 auto;       
+  display: flex;        
+  flex-direction: column; 
   position: relative;
 }
 
 .card--image {
-  width: 100%;
+  width: 170px;
+  height: 230px;
+  
   border-radius: 9px;
   margin-bottom: 9px;
 }
